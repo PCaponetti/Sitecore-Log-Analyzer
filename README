@@ -11,3 +11,6 @@ things I'd love to add to this:
 - all log parsing is done haphazardly in memory, moving to a temp DB would enable parsing of larger logs
 - need ability to scan full log folder (and drop the restriction for only 24 hours of graph)
 - anything you can think of
+
+
+NOTE: this project can be run standalone, but to install it in Sitecore just install the latest package under /Packages/ and update the binary as you build
