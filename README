@@ -1,0 +1,13 @@
+took a stab at getting a log analyzer out there, then Sitecore released one, so I tried to make mine better.
+
+this log analyzer runs in Sitecore and the main benefit is it's connection to a centralized repository of comments about each type of error and warning.  This functionality includes upvoting and downvoting comments.
+
+things I'd love to add to this:
+- the project started as MVC before moving to normal webapp, and the coding was done in a couple all nighters separated by months, so some refactoring is in order
+- need the ability to delete a comment or flag for delete
+- need pagination on the listing pages
+- could use a real modal for inputting comments
+- would like to redo the UI to make it look more like it belongs in Sitecore
+- all log parsing is done haphazardly in memory, moving to a temp DB would enable parsing of larger logs
+- need ability to scan full log folder (and drop the restriction for only 24 hours of graph)
+- anything you can think of
